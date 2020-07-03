@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: #000;
+        }
+        /* p{
+            color: #000!important;
+        } */
+        .apple{
+            color: red;
+        }
+        .cat{
+            color: blue;
+        }
+        #banana{
+            color: blueviolet;
+        }
+        .tedbear {
+            background-color: cornsilk;
+        }
+        h1.ted{
+            background-color: coral;
+        }
+        h2.ted{
+            background-color: palegreen;
+        }
+        p.ted{
+            background-color: rosybrown;
+        }
+        [alt]{
+            color: springgreen;
+            background-color: purple;
+        }
+        [alt="ball"]{
+            color: white;
+            background-color: black;
+        }
+        .box p{
+            background-color: aquamarine;
+        }
+        .can {
+            background-color: bisque;
+            border: red solid 5px;
+        }
+        .can p{
+            color: navy;
+        }
+        .can>div{
+            background-color: skyblue;
+            border: black solid 5px;
+        }
+        .can>div>div{
+            background-color: white;
+            border: greenyellow solid 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>here is title</h1>
+    <p>only tag</p>
+    <p class="apple">only class</p>
+    <p class="apple" id="banana">class    id</p>
+    <p class="apple cat">class apple   and   cat</p>
+    <h1 class="tedbear">the same class </h1>
+    <h2 class="tedbear">the same clss </h2>
+    <p class="tedbear">the same class </p>
+
+    <h1 class="ted">the same class but select with different</h1>
+    <h2 class="ted">the same clss but select with different</h2>
+    <p class="ted">the same class but select with different</p>
+
+    <p alt="ball">attribute selectors don't care content</p>
+
+    <div class="box">
+        <p>利用後代選取</p>
+    </div>
+    <div class="can">
+        <p>我是父層</p>
+        <div>
+            <p>子層在這</p>
+            <div>
+                <p>我是孫層</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    
+</body>
+</html>
