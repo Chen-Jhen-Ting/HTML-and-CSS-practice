@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .wrap{
+            width: 100%;
+            background-color: bisque;
+            font-size: 40px;
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            border: red 1px solid;
+        }
+        .box2{
+            flex-grow: 1;
+        }
+        .box3{
+            flex-grow: 1;
+        }
+        .box4{
+            margin-left: auto;
+        }
+
+/* 均分寬度  子層寬度設為0， 用flex-grow去分配父層剩餘寬度  用於不用換行的狀況*/  
+        .square{
+            width: 0px;
+            height: 200px;
+            border: red 1px solid;
+            margin: 10px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .ac1{
+            flex-grow: 1;
+            order: 1;
+        }
+        .ac2{
+            flex-grow: 1;
+        }
+        .ac3{
+            flex-grow: 1;
+            order: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item box1">1</div>
+        <div class="item box2">2</div>
+        <div class="item box3">3</div>
+    </div>
+
+    <div class="wrap">
+        <div class="item ">1</div>
+        <div class="item ">2</div>
+        <div class="item box4">3</div>
+    </div>
+
+    <div class="wrap">
+        <div class="square ac1">1111</div>
+        <div class="square ac2">2</div>
+        <div class="square ac3">3</div>
+    </div>
+    
+</body>
+</html>
