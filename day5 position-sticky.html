@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header{
+        width: 960px;
+        height: 200px;
+        background-color: silver;
+    }
+    .flex{
+        width: 960px;
+        height: 600px;
+        background-color: antiquewhite;
+        display: flex;
+    }
+    .left{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+    }
+    .sticky{
+        width: 280px;
+        height: 200px;
+        background-color: red;
+        position: sticky;
+        top: 0px;
+    }
+    .box{
+        width: 280px;
+        height: 200px;
+        background-color: saddlebrown;
+    }
+    footer{
+        height: 1000px;
+        background-color: rosybrown;
+    }
+</style>
+<body>
+    <header>header</header>
+    <div class="flex">
+        <div class="left">left
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi animi neque cum laboriosam autem harum. Dolorum, repellat nostrum quaerat totam doloremque quo laborum cumque commodi unde illo, eos beatae quidem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi expedita itaque dicta magni, ullam consequatur numquam ipsam corrupti id eaque ex cupiditate recusandae rerum consequuntur et? Facilis soluta laboriosam deserunt!</p>        </div>
+        <div class="right">right
+            <div class="sticky"> sticky</div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <footer class="footer">footer</footer>
+</body>
+</html>

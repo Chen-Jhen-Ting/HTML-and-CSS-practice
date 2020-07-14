@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+section{
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.wrap{
+    border: 1px solid red;
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+ 
+}
+.topic{
+    width: 355px;
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.t-type2{
+    left: 63%;;
+}
+
+.topic-title {
+    background-color: rgb(187,4,4);
+    height: 120px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.h2-type2{
+    margin-left: auto;
+}
+.num{
+    margin-left: -30px;
+    margin-right: -30px;
+    /* transform: rotate(90deg); */
+    writing-mode: vertical-lr;
+    font-size: 100px;
+}
+.n-type2{
+    order: 1;
+}
+.topic-text{
+    padding: 20px 20px 40px 20px;
+    line-height: 30px;
+}
+.topic-text h3{
+    font-size: 20px;
+}
+.topic-text p{
+    font-size: 16px;
+    color: rgb(201,201,201);
+}
+
+.shadow{
+    width: 440px;
+    height: 300px;
+    position: absolute;
+    background-color: rgb(242,242,242);
+    z-index: -1;
+}
+.s-type1{
+    top: 40px; 
+    right: 0px;
+}
+.s-type2{
+    top: 65px; 
+    left: 200px;
+}
+.main-pic{
+    width: 695px;
+    position: absolute;
+    top: 120px;
+    z-index: 0;
+}
+.mp-type1{
+    right: 50px;
+}
+.play-mark{
+    background-color: rgb(187,4,4);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+}
+.p-type1{
+    top: 0px;
+    bottom: 0px;
+    right: -10px;
+    margin: auto;
+}
+.p-type2{
+    top: 0px;
+    bottom: 0px;
+    left: -10px;
+    margin: auto;
+}
+.triangle{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    border-width: 7px 0px 7px 14px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+img{
+    width: 100%;
+}
+.detail{
+    width: 680px;
+    padding: 10px 20px;
+    background-color: rgb(238,238,238);
+    position: relative;
+    z-index: 1;
+}
+.d-type1{
+    margin: 130px 0px 0px 80px;
+}
+.d-type2{
+    margin: 130px 0px 0px 240px;
+}
+.detail-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.detail-title h5{
+    font-size: 15px;
+    color: rgb(187,4,4);
+}
+.redline{
+    width: 500px;
+    height: 1px;
+    margin: 0px auto;
+    background-color: rgb(187,4,4);
+}
+.detail-text h4{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 1px;
+    margin: 2px 0px;
+}
+.detail-text p{
+    color: rgb(135,135,135);
+    padding: 1px;
+    margin: 2px 0px;
+}
